@@ -26,27 +26,27 @@ let questions = [{
         choiceD: "Both B & C",
         correct: "C"
     }, {
-        question: "What does CSS stand for?",
-        choiceA: "Wrong",
-        choiceB: "Correct",
-        choiceC: "Wrong",
-        choiceD: "Wrong",
-        correct: "B"
+        question: "What's PsuedoCode?",
+        choiceA: "FAKE CODE",
+        choiceB: "a digital container",
+        choiceC: "Virtual Reality",
+        choiceD: "Descriptive and detailed steps written for a computer program that uses natural language",
+        correct: "D"
     }, {
-        question: "What does CSS stand for?",
-        choiceA: "Wrong",
-        choiceB: "Correct",
-        choiceC: "Wrong",
-        choiceD: "Wrong",
+        question: "What are variables?",
+        choiceA: "x & y",
+        choiceB: "Placeholders for pieces of information that can change",
+        choiceC: "pizza toppings",
+        choiceD: "master branch",
         correct: "B"
     },
     {
-        question: "What does JS stand for?",
-        choiceA: "Wrong",
-        choiceB: "Wrong",
-        choiceC: "Correct",
-        choiceD: "Wrong",
-        correct: "C"
+        question: "What are loops?",
+        choiceA: "lines of code that repeat the same action over & over",
+        choiceB: "fruity cereal",
+        choiceC: "Transistors",
+        choiceD: "beepity beeps?",
+        correct: "A"
     }
 ];
 
@@ -55,7 +55,7 @@ let questions = [{
 var lastQuestion = questions.length - 1;
 var runningQuestion = 0;
 var count = 0;
-var questionTime = 10; // 10s
+var questionTime = 25; // 25s
 var gaugeWidth = 150; // 150px
 var gaugeUnit = gaugeWidth / questionTime;
 let TIMER;
